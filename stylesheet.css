@@ -1,5 +1,5 @@
 body {
-    background-color: olivedrab;
+    background-color:teal;
 }
 
 h1 {
@@ -10,10 +10,34 @@ h1 {
     display: flex;
     background-color: orange;
     justify-content: center;
+    width: 300px;
+    margin: auto;
 }
 
 .texts {
     color: white;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.buttonbox {
+    margin-top: 20%;
+    margin-left: 45%;  
+}
+
+.button {
+    background-color:tomato;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.para {
+    background-color: thistle;
+    width: 300px;
+    justify-content: center;
 }
 
