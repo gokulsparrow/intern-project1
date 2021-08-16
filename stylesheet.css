@@ -1,5 +1,5 @@
 body {
-    background-color: blueviolet;
+    background-color: olivedrab;
 }
 
 h1 {
@@ -8,4 +8,5 @@ h1 {
 
 .box {
     align-items: center;
+    align-content: center;
 }
