@@ -1,12 +1,36 @@
 body {
-    background-color:teal;
+    background: linear-gradient(to right, #3525af, #9153c9);
 }
 
-h1 {
-    color: #fff;
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
 }
 
-.flex-container {
+.resume {
+    width: 800px;
+	background: #fff;
+	margin: 25px auto;
+	display: flex;
+}
+
+.left {
+    background: #292b2f;
+	width: 250px;
+	padding: 0 20px;
+}
+
+.right {
+    width: calc(100% - 250px);
+}
+
+
+
+
+
+/* .flex-container {
     display: flex;
     background-color: orange;
     justify-content: center;
@@ -48,4 +72,4 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
-
+ */
