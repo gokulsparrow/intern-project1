@@ -12,6 +12,7 @@ h1 {
     justify-content: center;
     width: 300px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .texts {
@@ -19,7 +20,72 @@ h1 {
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
-.buttonbox {
+.cover {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto;
+    padding: 150px;
+}
+
+.box1 {
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 300px;
+    margin-left: auto;
+    border-radius: 20px;
+}
+
+.box2 {
+    padding: 10px;
+    background-color: black;
+    text-align:center;
+    color: white;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.box3 {
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 300px;
+    margin-left: auto;
+    border-radius: 20px;
+}
+
+.box4 {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.icon1 {
+    font-size: 50px;
+    color: blue;
+}
+
+.icon2 {
+    font-size: 50px;
+    color: red;
+}
+
+.icon3 {
+    font-size: 50px;
+    color: yellow;
+}
+
+.icon4 {
+    font-size: 50px;
+    color: purple;
+}
+
+/* .buttonbox {
     margin-top: 20%;
     margin-left: auto;
     margin-right: auto;  
@@ -48,4 +114,4 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
-
+ */
