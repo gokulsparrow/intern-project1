@@ -21,7 +21,9 @@ h1 {
 
 .buttonbox {
     margin-top: 20%;
-    margin-left: 45%;  
+    margin-left: auto;
+    margin-right: auto;  
+    text-align: center;
 }
 
 .button {
@@ -36,8 +38,9 @@ h1 {
 }
 
 .para {
-    background-color: thistle;
+    color: white;
     width: 300px;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 

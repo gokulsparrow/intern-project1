@@ -1,3 +1,3 @@
 const changeToText = () => {
-    document.getElementById("demo").innerHTML = "You clicked the button, I am Gokul.";
+    document.getElementById("demo").innerHTML = "I am Gokul a web developer.";
 };
