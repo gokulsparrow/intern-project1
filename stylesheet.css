@@ -25,6 +25,7 @@ h1 {
     gap: 30px;
     grid-template-columns: auto auto;
     padding: 150px;
+    padding-top: 100px;
 }
 
 .box1 {
