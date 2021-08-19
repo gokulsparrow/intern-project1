@@ -1,0 +1,133 @@
+@import "colors";
+@import "button-animation";
+
+body {
+    background-color:teal;
+}
+
+h1 {
+    color: #fff;
+}
+
+.flex-container {
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+
+    .texts {
+        color: $text_color;
+        text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    }
+}
+
+
+//nesting elements
+
+.cover {                                         
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto;
+    padding: 150px;
+    padding-top: 50px;
+
+    .box1 {
+        padding: 10px;
+        background-color: $box_color;
+        text-align: center;
+        color: $text_color;
+        width: 300px;
+        margin-left: auto;
+        border-radius: 20px;
+
+        .icon1 {
+            font-size: $icon_size;
+            color: blue;
+        }
+    }
+    
+    .box2 {
+        padding: 10px;
+        background-color: $box_color;
+        text-align:center;
+        color: $text_color;
+        width: 300px;
+        border-radius: 20px;
+
+        .icon2 {
+            font-size: $icon_size;
+            color: red;
+        }
+    }
+    
+    .box3 {
+        padding: 10px;
+        background-color: $box_color;
+        text-align: center;
+        color: $text_color;
+        width: 300px;
+        margin-left: auto;
+        border-radius: 20px;
+
+        .icon3 {
+            font-size: $icon_size;
+            color: yellow;
+        }
+    }
+    
+    .box4 {
+        padding: 10px;
+        background-color: $box_color;
+        color: $text_color;
+        text-align: center;
+        width: 300px;
+        border-radius: 20px;
+
+        .icon4 {
+            font-size: $icon_size;
+            color: purple;
+        }
+    }
+}
+
+
+.button {
+    @include button-animation;
+}
+
+.button:hover {
+    background-color: rebeccapurple;
+}
+
+/* .buttonbox {
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;  
+    text-align: center;
+}
+
+.button {
+    background-color:tomato;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color:yellowgreen;
+}
+
+.para {
+    color: white;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ */
